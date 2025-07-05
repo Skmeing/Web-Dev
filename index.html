@@ -1,28 +1,60 @@
-/* == CAC base layout (black / white) == */
-body            { margin:0; background:#000; color:#fff; font-family: Arial, sans-serif; }
-header, footer  { text-align:center; padding:1.5rem 0; }
-main            { padding:2rem 10%; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CAC – Home</title>
 
-h1              { margin:0.2rem 0 0.8rem; font-size:2rem; font-weight:600; }
-h2              { font-size:1.3rem; margin:1.8rem 0 1rem; }
-p               { line-height:1.6; margin:0 0 1rem; }
+  <!-- shared stylesheet lives in css/style.css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
 
-/* Navigation */
-nav ul          { list-style:none; padding:0; margin:1rem 0 0; display:flex; gap:2rem; justify-content:center; }
-nav a.menu      { text-decoration:none; color:#fff; font-weight:bold; padding:0.4rem 0.8rem; border:1px solid #fff; border-radius:4px; }
-nav a.menu:hover{ background:#fff; color:#000; }
+  <!-- ====== HEADER ====== -->
+  <div id="header">
+    <!-- banner image (you uploaded banner.JPG at repo-root) -->
+    <img src="banner.JPG" alt="CAC banner" id="banner" />
 
-/* Links */
-a               { color:#a6d4ff; }        /* non-default link color */
-a:hover         { text-decoration:underline; }
+    <h1>Computing &amp; Analytics Center (CAC)</h1>
 
-/* News list */
-ul.news li      { margin-bottom:0.5rem; }
+    <!-- simple three-link menu -->
+    <nav>
+      <ul>
+        <li><a href="index.html"   class="menu">Home</a></li>
+        <li><a href="about.html"   class="menu">Faculty</a></li>
+        <li><a href="projects.html" class="menu">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
 
-/* Banner */
-#banner         { width:100%; max-height:260px; object-fit:cover; border-bottom:4px solid #fff; }
+  <!-- ====== MAIN CONTENT ====== -->
+  <div id="content">
 
-/* Footer */
-footer p        { margin:0; font-size:0.9rem; }
-footer a        { color:#a6d4ff; }
-footer a:hover  { text-decoration:underline; }
+    <!-- Center description -->
+    <h2>About the Center</h2>
+    <p>
+      The Computing &amp; Analytics Center (CAC) advances education&nbsp;<br />
+      and research in data analytics, cybersecurity, and emerging tech.<br />
+      We connect students, faculty, and industry partners to solve<br />
+      real-world problems through hands-on projects and outreach.
+    </p>
+
+    <!-- Latest news list -->
+    <h2>Latest News</h2>
+    <ul class="news">
+      <li>2025-07-01 – Summer analytics bootcamp opens registration.</li>
+      <li>2025-06-15 – CAC receives NSF grant for AI safety research.</li>
+      <li>2025-06-01 – New cyber-range lab launched on campus.</li>
+    </ul>
+
+  </div>
+
+  <!-- ====== FOOTER ====== -->
+  <div id="footer">
+    <p>
+      This site is a class project for
+      <a href="http://it5443.azurewebsites.net">IT&nbsp;5443</a>.
+    </p>
+  </div>
+
+</body>
+</html>
