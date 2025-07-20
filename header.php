@@ -1,5 +1,6 @@
 <div id="header">
-  <img src="img/banner.JPG" alt="CAC banner" id="banner" />
+  <img src="banner.JPG" alt="CAC banner" id="banner" />
+
   <h1>Computing &amp; Analytics Center (CAC)</h1>
 
   <nav>
