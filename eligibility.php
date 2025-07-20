@@ -20,19 +20,7 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  <div id="header">
-    <img src="banner.JPG" alt="CAC banner" id="banner" />
-    <h1>Computing &amp; Analytics Center (CAC)</h1>
-
-    <nav>
-      <ul>
-        <li><a href="index.html"      class="menu">Home</a></li>
-        <li><a href="Faculty.html"    class="menu">Faculty</a></li>
-        <li><a href="projects.html"   class="menu">Projects</a></li>
-        <li><a href="eligibility.html" class="menu">Eligibility</a></li>
-      </ul>
-    </nav>
-  </div>
+  <?php include 'header.php'; ?>
 
   <!-- ===== MAIN ===== -->
   <div id="content">
@@ -60,9 +48,7 @@
   </div>
 
   <!-- ===== FOOTER ===== -->
-  <div id="footer">
-    <p>This site is a class project for <a href="http://it5443.azurewebsites.net">IT&nbsp;5443</a>.</p>
-  </div>
+  <?php include 'footer.php'; ?>
 
   <!-- ===== SCRIPT ===== -->
   <script>
