@@ -8,19 +8,7 @@
 <body>
 
   <!-- ===== HEADER ===== -->
-  <div id="header">
-    <img src="banner.JPG" alt="CAC banner" id="banner" />
-    <h1>Computing &amp; Analytics Center (CAC)</h1>
-
-    <nav>
-      <ul>
-        <li><a href="index.html"    class="menu">Home</a></li>
-        <li><a href="Faculty.html"  class="menu">Faculty</a></li>
-        <li><a href="projects.html" class="menu">Projects</a></li>
-        <li><a href="eligibility.html" class="menu">Eligibility</a></li>
-      </ul>
-    </nav>
-  </div>
+  <?php include 'header.php'; ?>
 
   <!-- ===== MAIN ===== -->
   <div id="content">
@@ -28,9 +16,9 @@
 
     <!-- Shaoen Wu -->
     <div class="faculty">
-      <img src="wu.jpg" alt="Shaoen Wu" />
+      <img src="img/wu.jpg" alt="Shaoen Wu" />
       <div>
-        <h3><a href="https://facultyweb.kennesaw.edu/swu10/courses.php">Shaoen Wu</a></h3>
+        <h3><a href="https://facultyweb.kennesaw.edu/swu10/courses.php">Shaoen&nbsp;Wu</a></h3>
         <p>Chair, Department of IT &nbsp;|&nbsp; Interim Director, CAC<br />
            Professor of Information Technology</p>
         <p><strong>Research&nbsp;Interests:</strong> Cybersecurity; Internet of Things; Wireless Sensing &amp; Networking; Smart Health</p>
@@ -40,9 +28,9 @@
 
     <!-- Zhigang Li -->
     <div class="faculty">
-      <img src="li.jpg" alt="Zhigang Li" />
+      <img src="img/li.jpg" alt="Zhigang Li" />
       <div>
-        <h3><a href="https://facultyweb.kennesaw.edu/zli8/courses.php">Zhigang Li</a></h3>
+        <h3><a href="https://facultyweb.kennesaw.edu/zli8/courses.php">Zhigang&nbsp;Li</a></h3>
         <p>Assistant Chair, Department of IT<br />
            Associate Professor of Information Technology</p>
         <p><strong>Research&nbsp;Interests:</strong> Learning Technologies; STEM Education</p>
@@ -52,9 +40,9 @@
 
     <!-- Shirley Tian -->
     <div class="faculty">
-      <img src="tian.jpg" alt="Shirley Tian" />
+      <img src="img/tian.jpg" alt="Shirley Tian" />
       <div>
-        <h3><a href="https://facultyweb.kennesaw.edu/xtian2/index.php">Shirley Tian</a></h3>
+        <h3><a href="https://facultyweb.kennesaw.edu/xtian2/index.php">Shirley&nbsp;Tian</a></h3>
         <p>MSIT Graduate Program Coordinator<br />
            Associate Professor of Information Technology</p>
         <p><strong>Research&nbsp;Interests:</strong> Social Media Analytics; Cybersecurity</p>
@@ -64,9 +52,7 @@
   </div>
 
   <!-- ===== FOOTER ===== -->
-  <div id="footer">
-    <p>This site is a class project for <a href="http://it5443.azurewebsites.net">IT&nbsp;5443</a>.</p>
-  </div>
+  <?php include 'footer.php'; ?>
 
 </body>
 </html>
