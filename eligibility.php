@@ -119,7 +119,7 @@
     $("result").innerHTML =
       `Average grade: ${avg.toFixed(2)} — ` +
       (pass
-        ? `Congratulations! You qualify. <a href="apply.html" class="apply-link">Apply&nbsp;now</a>.`
+        ? `Congratulations! You qualify. <a href="apply.php" class="apply-link">Apply&nbsp;now</a>.`
         : `Thank you for your interest, but the minimum average of ${data[key].req.toFixed(1)} was not met.`);
   });
   </script>
